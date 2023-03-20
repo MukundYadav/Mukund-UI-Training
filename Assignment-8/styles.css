@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    position: relative;
+    width: 100%;
+    opacity:1;
+}
+body{
+    background-image:url("/Images/images ex-8/background-image.png");
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.fancy{
+    position: absolute;
+    top: 41px;
+    left: 640px;
+    color: white;
+    font-size: 5.5em;
+    font-weight: 600;
+    opacity: 1;
+    
+}
+.hats{
+    color: white;
+    position: absolute;
+    font-size: 7.6em;
+    top: 653px;
+    left: 545px;
+    font-weight: 800;
+    letter-spacing: 3.7px;
+}
+.card{
+    background-color: #0000003f;
+    height: 100vh;
+}
+.lifetime{
+    color: white;
+    position: absolute;
+    font-size: 9.7em;
+    top: 760px;
+    left: 545px;
+    font-weight: 700;
+    letter-spacing: 7.9px;
+}
+.since{
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top:158px;
+    transform:rotate(270deg);
+    left: 1455px;
+}
+.since > #span2{
+    font-size: 12em;
+    font-weight: 800;
+}
+.since > #span1{
+    font-size: 4.6em;
+    font-weight: 600;
+}
+/* #facebook{
+    position: absolute;
+    color: white;
+} */
+/* #twitter{
+    position:absolute;
+    top:50px;
+    color:white;
+} */
+.menu-box{
+    display: inline-block;
+    position: absolute;
+    top:44px;
+    height:9vh;
+    width: 9vh;
+    border: 1;
+    background-color: black;
+}
+.toggle{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+#hr{
+    width:34px;
+    height: 0.8vh;
+}
+#hat{
+    height: 10vh;
+    width: 10vh;
+}
+.menu{
+    width: 276px;
+    position: absolute;
+    background-color: black;
+    top:90px;
+    /* left:px; */
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    z-index: 1;
+    transform: translateX(-300px);
+    transition: 0.5s linear;
+}
+li:first-child{
+    padding-top: 30px;
+}
+li:last-child{
+    padding-bottom: 30px;
+}
+
+li{
+    color: white;
+    padding: 11px;
+    padding-left: 80px;
+    padding-right: 65px;
+    font-size: 1.3em;
+}
+
+.menu li:not(:first-child):hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.389);
+}
+
+.menu-box:hover .menu{
+    transform : translateX(0px);
+}
+
+.social-media-icons {
+    font-size: 36px;
+    color: #fff;
+}
+
+#facebook{
+    position:absolute;
+    top:950px;
+    left:1666px;
+}
+#twitter{
+    position:absolute;
+    top:950px;
+    left:1612px;
+}
