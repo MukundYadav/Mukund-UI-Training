@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    background-image:url('/Images/images-Ex2/stars_space_dark_139528_1920x1080\ copy.jpg') ;
+}
+.spinner {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-image: url('/Images/ihnm_39av_210214.jpg');
+  background-size: cover;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: relative;
+  animation: spin 5s infinite linear;
+  top: 200px;
+  left:600px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 50px;
+    color:#e8e9ca;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
