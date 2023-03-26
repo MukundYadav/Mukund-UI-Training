@@ -1,0 +1,208 @@
+/* responsive design */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+
+.email-top {
+  padding: 82px 100px;
+}
+.email-top h2 {
+  font-size: 33px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.email-down {
+  display: none;
+  margin-top: 30px;
+}
+.email-down h2 {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.designer-info {
+  padding: 50px 0;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+}
+.name h1 {
+  font-size: 178px;
+}
+
+.first-name {
+  font-weight: 100;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  font-size: 33px;
+  margin-top: 18px;
+  margin-bottom: 186px;
+  letter-spacing: 4px;
+}
+.description h2 {
+  color: #cecece;
+}
+.description pre {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #4b8fe2;
+  display: inline;
+}
+
+.designs {
+  max-width: 82%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
+}
+
+.sponsor-images {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 120px auto;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.design-pic {
+  width: 30.5%;
+}
+
+.other-sponsors {
+  margin-top: 146px;
+}
+
+.sponsor-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.sponsor-heading h2 {
+  color: #cecece;
+}
+.sponsor-heading pre {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #B8E985;
+  display: inline;
+}
+
+.icon {
+  width: 8%;
+}
+
+.icons img {
+  max-height: 100px;
+}
+
+.horizontal-lines {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.hr1 {
+  width: 42px;
+  border-bottom: 1px solid #fff;
+  margin-right: 45px;
+}
+
+.hr2 {
+  width: 264px;
+  border-bottom: 1px solid #fff;
+}
+
+.social-media-icons {
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  gap: 25px;
+  text-align: center;
+}
+.social-media-icons i {
+  width: 62px;
+  height: 62px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.Medium-icon {
+  width: 62px;
+  height: 62px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-family: "Blaak ExtraBold PERSONAL USE", sans-serif;
+  padding: 4px;
+}
+
+.footer-passion {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 186px;
+}
+
+@media screen and (max-width: 475px) {
+  .sponsor-images {
+    gap: 50px;
+  }
+  .icon {
+    width: 30%;
+  }
+  header {
+    visibility: hidden;
+  }
+  .email-down {
+    display: block;
+  }
+  .design-pic {
+    width: 100%;
+  }
+  .sponsor-heading h2 {
+    font-size: 35px;
+  }
+  .designs {
+    margin-top: 40px;
+  }
+  .name h1 {
+    font-size: 65px;
+  }
+  .description {
+    margin-bottom: 20px;
+  }
+  .description h2 {
+    font-size: 35px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
