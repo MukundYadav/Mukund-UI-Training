@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Math Kids</title>
+        <link href="./styles.css" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    </head>
+        <header class="header">
+            <div class="math-kids">MATH KIDS</div>
+            <div class="learning-app">KIDS LEARNING APP</div>
+        </header>
+
+    <body>
+        <div class="container">
+            <!-- fisrt section starting... -->
+            <div class="first-section">
+                <p class="choose-shape">1.Choose A Shape</p>
+
+                <div class="shapes">
+                    <button id="buttonCircle">
+                        <div class="circle">
+                            <i class="fa-solid fa-check" id="tickOnCircle"></i>
+                        </div>
+                    </button>
+                    <button id="buttonTriangle">
+                        <div class="triangle">
+                            <i class="fa-solid fa-check" id="tickOnTriangle"></i>
+                        </div>
+                    </button>
+                    <button id="buttonSquare">
+                        <div class="square">
+                            <i class="fa-solid fa-check" id="tickOnSquare"></i>
+                        </div>
+                    </button>
+                </div>
+                <button id="moveNext">NEXT</button>
+            </div>
+
+            <!-- first section ends... -->
+            <!-- second section starts.... -->
+
+            <div class="second-section">
+                <p id="displayMessage"></p>
+                <input type="number" name="value" id="inputBox" autocomplete="off">
+                <button id="calculateButton">CALCULATE</button>
+            </div>
+
+            <!-- second section ends.... -->
+            <!-- third section starts.... -->
+            <div class="third-section">
+                <div class="shapes">
+                    <div class="circle" id="circleInSection3" ></div>
+                    <div class="triangle" id="triangleInSection3" ></div>
+                    <div class="square" id="squareInSection3" ></div>
+                    <p id="shapeName"></p>
+                </div>
+    
+                <table>
+                    <tr>
+                        <td id="radiusSide"></td>
+                        <td id="radiusSideUnit"></td>
+                        <td id="radiusSideValue"></td>
+                    </tr>
+                    <tr>
+                        <td>AREA</td>
+                        <td id="areaUnit"></td>
+                        <td id="areaValue"></td>
+                    </tr>
+                    <tr>
+                        <td>PERIMETER</td>
+                        <td id="perimeterUnit"></td>
+                        <td id="perimeterValue"></td>
+                    </tr>
+                </table>
+    
+                <button id="buttonStartAgain">START AGAIN</button>
+    
+            </div>
+            <!-- third section ends.... -->
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
