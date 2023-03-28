@@ -14,25 +14,33 @@
 </head>
     </head>
     <body>
+        <!-- header section goes here... -->
         <header>
             <img src="/Images/logo.png" alt="" />
         </header>
-        <div class="menu-icon"></div>
-        <div class="menu">
-            <ul>
-                <li><a class="menu-item" href="#">My Account</a></li>
-                <li><a class="menu-item" href="#">My Orders</a></li>
-                <li><a class="menu-item" href="#">My Wish List</a></li>
-                <li><a class="menu-item" href="#">Logout</a></li>
-            </ul>
+        <!-- menu implementation goes here... -->
+        <div class="menu-info">
+            <div class="menu-icon"></div>
+            <div class="menu">
+                <ul>
+                    <li><a class="menu-item" href="#">My Account</a></li>
+                    <li><a class="menu-item" href="#">My Orders</a></li>
+                    <li><a class="menu-item" href="#">My Wish List</a></li>
+                    <li><a class="menu-item" href="#">Logout</a></li>
+                </ul>
+            </div>
+            <!-- code for menu ends here.. -->
+            <!-- header section ends here.... -->
         </div>
+        <!-- the main container starts here..... -->
         <section class="container">
             <div class="test">
+                <!-- individual cards for each item  -->
                 <div class="card">
                     <div class="item-card">
                         <i class="far fa-star" id="first-star"></i>
-                        <img src="/Images/Ex 6 - Assets/products/shirt.png " id="shirt" alt="">
-                        <div class="size" id="first-card">S</div>
+                        <img src="/Images/Ex 6 - Assets/products/shirt.png " class="shirt" alt="a shirt Image">
+                        <div class="size" id="first-card-size">S</div>
                     </div>
                     <div class="price-card" >
                         <h2>Bath Wardrobe</h2>
@@ -43,7 +51,7 @@
                 <div class="card">
                     <div class="item-card" >
                         <i class="far fa-star" id="second-star"></i>
-                        <img src="/Images/Ex 6 - Assets/products/jacket.png" id="jacket" alt="">
+                        <img src="/Images/Ex 6 - Assets/products/jacket.png" class="jacket" alt=" the jacket image">
                         <div class="size" id="second-card">M</div>
                     </div>
                     <div class="price-card">
@@ -55,7 +63,7 @@
                 <div class="card">
                     <div class="item-card">
                         <i class="far fa-star" id="third-star"></i>
-                        <img src="/Images/Ex 6 - Assets/products/tshirt.png" alt="" id="tshirt">
+                        <img src="/Images/Ex 6 - Assets/products/tshirt.png" alt=" the tshirt image" class="tshirt">
                         <div class="size" id="third-card">S</div>
                     </div>
                     <div class="price-card" >
@@ -67,7 +75,7 @@
                 <div class="card">
                     <div class="item-card">
                         <i class="far fa-star" id="fourth-star"></i>
-                        <img src="/Images/Ex 6 - Assets/products/sweatshirt.png" id="sweatshirt" alt="">
+                        <img src="/Images/Ex 6 - Assets/products/sweatshirt.png" class="sweatshirt" alt="sweatshirt image">
                         <div class="size" id="fourth-card">S</div>
                     </div>
                     <div class="price-card">
@@ -79,7 +87,7 @@
                 <div class="card">
                     <div class="item-card">
                         <i class="far fa-star" id="fifth-star"></i>
-                        <img src="/Images/Ex 6 - Assets/products/shirt.png " id="shirt-2" alt="">
+                        <img src="/Images/Ex 6 - Assets/products/shirt.png " class="shirt-2" alt="shirt image">
                         <div class="size" id="fifth-card">M</div>
                     </div>
                     <div class="price-card" id="price-5">
@@ -91,7 +99,7 @@
                 <div class="card">
                     <div class="item-card">
                         <i class="far fa-star" id="sixth-star"></i>
-                        <img src="/Images/Ex 6 - Assets/products/jacket.png" id="jacket-2" alt="">
+                        <img src="/Images/Ex 6 - Assets/products/jacket.png" class="jacket-2" alt="jacket image">
                         <div class="size" id="sixth-card">S</div>
                     </div>
                     <div class="price-card" id="price-6">
@@ -103,7 +111,7 @@
                 <div class="card">
                     <div class="item-card">
                         <i class="far fa-star" id="seventh-star"></i>
-                        <img src="/Images/Ex 6 - Assets/products/tshirt.png" id="tshirt-2" alt="">
+                        <img src="/Images/Ex 6 - Assets/products/tshirt.png" class="tshirt-2" alt="tshirt image">
                         <div class="size" id="seventh-card">M</div>
                     </div>
                     <div class="price-card" id="price-7">
@@ -115,7 +123,7 @@
                 <div class="card">
                     <div class="item-card">
                         <i class="far fa-star" id="eighth-star"></i>
-                        <img src="/Images/Ex 6 - Assets/products/sweatshirt.png" id="sweatshirt-2" alt="">
+                        <img src="/Images/Ex 6 - Assets/products/sweatshirt.png" class="sweatshirt-2" alt="sweatshirt image">
                         <div class="size" id="eighth-card">S</div>
                     </div>
                     <div class="price-card" id="price-8">
@@ -124,8 +132,10 @@
                         <button>ADD TO CART</button>
                     </div>
                 </div>
+                <!-- cards container ends here... -->
             </div>
         </section>
+        <!-- footer section starts from  here.. -->
         <footer class="footer">
             <div id="footer-contents">
                 <div class="footer-menu">Jackets</div>
@@ -135,5 +145,6 @@
                 <div class="footer-menu">Shoes</div>
             </div>
         </footer>
+        <!-- footer section ends here... -->
     </body>
 </html>

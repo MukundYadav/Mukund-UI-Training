@@ -7,15 +7,10 @@ body{
     background-color: #2a2b30;
     font-family: 'Roboto', sans-serif;
 }
-    /* background-color: #2a2b30; */
-/* .card1{
-    width:20%;
-    display: inline-block;
-    margin:auto
-} */
 header{
     height:201px;
 }
+/* styling for the image inside the header...  */
 header >img{
     margin-top: 68px;
     margin-bottom: 20px;
@@ -24,6 +19,7 @@ header >img{
     height:68px;
     
 }
+/* styling for the menu icon starts */
 .menu-icon{
     position: absolute;
     height:68px;
@@ -33,6 +29,7 @@ header >img{
     top:64px;
     left:1543px;
 }
+/* styling for the menu icon ends here... */
 .container{
     width:84%;
     margin: auto;
@@ -43,7 +40,6 @@ header >img{
     width:22.3%;
     height: 590px;
     margin-right: 47px;
-    /* background-color: brown; */
     
 }
 .card:nth-child(4n){
@@ -59,6 +55,7 @@ header >img{
     background-color: #24252a;
     height: 415px;
 }
+/* styling for the footer starts here... */
 footer{
     width: 100%;
     position: fixed;
@@ -74,6 +71,7 @@ footer{
     padding: 26px;
 
 }
+/* styling for the footer ends here.. */
 #footer-contents{
     margin-top: 20px;
     margin-left: 542px;
@@ -90,7 +88,8 @@ footer{
     padding: 19px;
     font-weight: 400;
 }
-#first-card{
+/* size icons positioning starts */
+#first-card-size{
     left:382px;
     top:588px;
 }
@@ -122,7 +121,8 @@ footer{
     left:1509px;
     top:1178px; 
 }
-/* star icons */
+/* size icons positioning ends here... */
+/* star icons positioning starts here */
 .far {
     position: absolute;
     font-size: 21px;
@@ -160,54 +160,56 @@ footer{
     top: 813px;
     left: 1544px;
 }
-#shirt{
+/* positioning for the cloth images starts here */
+.shirt{
     height: 237px;
     width: 180px;
     left: 135px;
     top: 224px;
 }
-#jacket{
+.jacket{
     height: 250px;
     width: 180px;
     left: 512px;
     top: 224px;
 }
-#tshirt{
+.tshirt{
     height: 240px;
     width: 250px;
     left: 855px;
     top: 224px;
 }
-#sweatshirt{
+.sweatshirt{
     height: 245px;
     width: 225px;
     left: 1240px;
     top: 224px;
 }
-#shirt-2{
+.shirt-2{
     height: 237px;
     width: 180px;
     left: 135px;
     top: 809px;
 }
-#jacket-2{
+.jacket-2{
     height: 250px;
     width: 180px;
     left: 512px;
     top: 809px;
 }
-#tshirt-2{
+.tshirt-2{
     height: 240px;
     width: 250px;
     left: 855px;
     top: 809px;
 }
-#sweatshirt-2{
+.sweatshirt-2{
     height: 245px;
     width: 225px;
     left: 1240px;
     top: 809px;
 }
+/* positioning for the cloth images ends here.... */
 .price-card{
     
     color: white;
@@ -231,9 +233,12 @@ footer{
     border: 1px solid #aaaaaa;
     cursor: pointer;
 }
+/* menu hovering */
 .far:hover{
     cursor: pointer;
 }
+
+/* menu styling starts here.... */
 .menu{
     display: none;
     position: absolute;
@@ -257,9 +262,10 @@ footer{
     color: #000;
     font-weight: 600;
 }
-.menu-icon:hover +  .menu{
+.menu-info:hover .menu{
     display: block;
 }
+/* menu styling ends here... */
 
 
 
