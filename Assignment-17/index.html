@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion | jQuery</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <header>
+        <div class="sirius-logo">
+            <img src="./images/Sirius_CDW_Cobranded_PMS2747.svg" alt="">
+        </div>
+    </header>
+    <main class="container">
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">ABOUT US</a></li>
+                <li><a href="#tabs-2">SOLUTIONS</a></li>
+                <li><a href="#tabs-3">LOCATIONS</a></li>
+            </ul>
+            <div id="tabs-1">
+                <p>
+                    Sirius is a national integrator of technology-based buisness solutions that span the
+                    enterprise, including the data center and lines of buisness. Built on products and services from the world's
+                    top technology companies, Sirius solutions are installed, configured and supported bu our dedicated teams of highly certified
+                    experts. With the right people and the right partners, Sirius focuses on solutions that will
+                    help you manage you operations, optimize your IT, secure it all, and transform your business. We
+                    require our teams to be certified in multiple disciplines and products, so they can help you get
+                    from the high-level architecture of a solution all the way down to the technical configuration and implementation
+                    of point-products. Since its founding in offers integrated, multivendor technology solutions that meet the requirements of the full range of organizations, from small business with fewer than 500 employees to
+                    large enterprises with thousands of employees and hundreds of locations.
+                </p>
+
+                <img src="./images/sirius_quote.png" id="sirius-corp" alt="Sirius Corporation" />
+            </div>
+
+            <div id="tabs-2">
+                <div id="accordion">
+                    <h3>DIGITAL EXPERIENCE</h3>
+                    <div>
+                        <p>
+                          The Sirius Digital Experience (DX) practice encompasses all the components for building 
+                          successful Web Content Management and Digital Asset Management solutions with our staff. 
+                          The Sirius DX team is made up of qualified information and software architects, UI/UX designers,
+                          and developers who possess both industry knowledge and extensive technical background in digital solutions
+                          across a variety of platforms and devices.Our experts think out-side the box to best design and develop solutions that ensure a
+                          better user experience and value based upon your specific needs and business objectives.
+                        </p>
+                    </div>
+                    <h3>QUALITY ASSURANCE</h3>
+                    <div>
+                        <p>
+                          Ready to propel your organization to astonishing new heights?
+                          Sirius can help you become more agile, innovative and secure than 
+                          you ever imagined. As a national integrator of comprehensive
+                          technology-based solutions, we help you master digital and harness 
+                          the power of your data through transformation that transcends industries and reinvents the customer experience.
+                        </p>
+                    </div>
+                    <h3>MANAGED SERVICES</h3>
+                    <div>
+                        <p>
+                          Sirius Managed Services (SMS) can help by serving as your single provider of solutions and talent for IT 
+                          application transformation, engineering and operations.
+                          SMS will help you:
+                          Move faster by expanding the productivity of your staff or filling gaps of specific skill sets
+                          Improve cloud adoption and drive value from these platforms
+                          Ensure you are consistently compliant, secure, and reducing risk to your business
+                          With a staff of more than 300 technical professionals, and 4,000+ technical certifications 
+                          across all infrastructure, OS and virtualization platforms, you can feel confident knowing 
+                          that Sirius has the expertise, scale, and ITIL-based processes to meet the strictest SLAs while managing your environments.
+                        </p>
+                    </div>
+                    <h3>INFORMATION TECHNOLOGY</h3>
+                    <div>
+                      <p>A Self-Study In Cloud & Business Transformation. Sirius catapults
+                         to real-time efficiency by replacing its CRM, PSA and ERP systems with cloud-based Salesforce</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div id="tabs-3">
+                <table id="locations">
+                </table>
+            </div>
+        </div>
+    </div>
+    </main>
+  <script src="./index.js"></script>
+</body>
+</html>
